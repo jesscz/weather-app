@@ -44,11 +44,9 @@ function switchUnits(data, unit){
     switchUnits.innerText = 'Change units';
     switchUnits.addEventListener('click', function(){
         if (unit == 'imperial'){
-            console.log('on')
-            create(data, 'metric')
+            create(data, 'metric');
         } 
         else if (unit == 'metric'){
-            console.log('off')
             create(data, 'imperial');
         }
     })

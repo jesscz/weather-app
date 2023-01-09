@@ -1,3 +1,9 @@
+body{
+    background-color: rgb(194, 194, 255);
+    position: absolute;
+    top: max(80px,30%);
+    left: max(70px, 20%);
+}
 h1 > div{
     font-size: smaller;
 }
